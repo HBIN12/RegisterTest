@@ -1,0 +1,31 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="恭喜你，注册成功!"
+        android:textSize="30sp"
+        android:textColor="#DB0F0F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TableRow android:layout_marginTop="50dp" android:layout_marginLeft="20dp" >
+        <TextView android:text="您的账号为：" android:textSize="20sp"></TextView>
+        <TextView android:id="@+id/usernameresult"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp" android:layout_marginLeft="20dp" >
+        <TextView android:text="您的性别为：" android:textSize="20sp"></TextView>
+        <TextView android:id="@+id/sexresult" android:textStyle="bold" android:textSize="20sp"></TextView>
+    </TableRow>
+    <TableRow android:layout_marginTop="10dp" android:layout_marginLeft="20dp" >
+        <TextView android:text="所在城市为：" android:textSize="20sp"></TextView>
+        <TextView android:id="@+id/cityresult" android:textStyle="bold" android:textSize="20sp"></TextView>
+    </TableRow>
+
+</TableLayout>
